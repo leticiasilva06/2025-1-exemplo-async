@@ -1,0 +1,17 @@
+{} package.json > _
+{
+ "name" : "computacao-distribuida",
+ "version": "1.0.0",
+ "description": "Exemolo de app com rabbimp",
+ "main": "producer.js",
+
+ "scripts": { 
+    "start-producer": "node producer.js" 
+    "start-consumer": "node consumer.js"
+ }
+ "dependencies": {
+    "amqplib": "^0.10.5"
+ }
+}
+
+
